@@ -1,5 +1,7 @@
 👋 Hey there, I'm @DR-MELCHISEDEC-BANKOLE, your friendly neighborhood Web Developer.
 
+I am a Supernal Science Scholar currently transitioning to tech: software programming/Data science.
+
 👀 My passion lies in the realms of Software Programming and the captivating world of Data Science.
 
 🌱 Currently, I'm immersing myself in the wonders of Angular, continually expanding my skill set.
