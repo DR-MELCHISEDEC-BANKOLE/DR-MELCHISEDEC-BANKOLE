@@ -1,6 +1,7 @@
-👋 Hey there, I'm @DR-MELCHISEDEC-BANKOLE, your friendly neighborhood Web Developer | Technical Writer.
+👋 Hey there, I'm @DR-MELCHISEDEC-BANKOLE, your friendly nexus: 
+Data Programmer/Analyst [Python, SQL] | Front-End Developer [HTML, CSS, JavaScript] | Technical Writer.
 
-I am a Supernal Science Scholar who is currently transitioning to tech: software programming/Data science.
+I am a Supernal Science Scholar who is currently transitioning to tech: Software programming/Data science.
 
 👀 My passion lies in the realms of Software Programming and the captivating world of Data Science.
 
