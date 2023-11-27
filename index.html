@@ -46,66 +46,85 @@
     
     <!-- Internal Styles -->
     <style>
-        /* Your CSS styles here */
-        .orange-border {
-            border: 2px solid orange;
-            padding: 5px;
-            color: black;
-            font-weight: bold;
-            transition: color 0.3s; /* Adding a smooth transition effect */
-        }
+    /* Existing CSS styles */
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: black;
+        color: white; /* Setting text color to white */
+    }
 
-        .flex-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            margin-top: auto;
-        }
+    a {
+        color: blue; /* Setting link color to blue */
+    }
 
-        .orange-border:hover {
-            color: white; /* Change color on hover */
-        }
+    main {
+        margin-top: 340px; /* Adjust margin-top to accommodate header height + padding */
+        max-width: 800px;
+        padding: 0 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .orange-border {
+        border: 2px solid orange;
+        padding: 5px;
+        color: black;
+        font-weight: bold;
+        transition: color 0.3s; /* Adding a smooth transition effect */
+    }
 
-        body {
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-            background-color: black;
-            color: white;
-            font-family: Arial, sans-serif;
-        }
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: auto;
+    }
 
-        header {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            background-color: #F0B90B;
-            padding: 10px;
-            text-align: center;
-            height: 320px; /* Change the value to whatever height you need */        
-        }
-        
-        header h1{
-            color: black;
-        }
+    .orange-border:hover {
+        color: white; /* Change color on hover */
+    }
 
-        main {
-            margin: 0 auto;
-            max-width: 800px;
-            padding: 0 20px;
-        }
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
 
-        footer {
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-            background-color: #F0B90B;
-            color: #000000;
-            padding: 10px;
-            text-align: center;
-        }
-    </style>
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #F0B90B;
+        padding: 10px;
+        text-align: center;
+        z-index: 1000; /* Ensure header stays on top */
+        width: 100%;
+    }
+
+    header h1 {
+        font-size: 46px;
+        color: black;
+        margin-top: 20px; /* Adding margin to the top of h1 */
+    }
+
+    main {
+        margin-top: 340px; /* Adjust margin-top to accommodate header height + padding */
+        max-width: 800px;
+        padding: 0 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #F0B90B;
+        color: #000000;
+        padding: 10px;
+        text-align: center;
+    }
+</style>
 </head>
 
 <body>
