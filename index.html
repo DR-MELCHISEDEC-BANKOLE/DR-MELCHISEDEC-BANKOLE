@@ -43,23 +43,12 @@
 
     <!-- css here -->
     <style>
-        /* CSS style with text color set to black */
-        #bottomTable {
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            margin-bottom: 10px; /* Adjust as needed to create space between header and table */
-        }
-
-        /* Your existing styles for orange-border and other elements */
         .orange-border {
             border: 2px solid orange;
             padding: 5px;
-            display: inline-block;
             color: black;
             font-weight: bold;
-            /* Add any other styles you need */
+            /* Other styles for the flex items */
         }
 
         body {
@@ -71,33 +60,28 @@
             color: white;
             font-family: Arial, sans-serif;
         }
-        
+
         #header h1 {
             font-size: 46px; /* Set the font size for h1 to 28 pixels (adjust as needed) */
+            color: black;
         }
-        
+
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: auto; /* Push the flex container to the bottom */
+        }
+
         #header {
+            display: flex;
+            flex-direction: column; /* Arrange items in a column */
+            align-items: center; /* Align items horizontally in the center */
             background-color: #F0B90B;
-            color: #000000;
             padding: 10px;
             text-align: center;
             height: 200px; /* Set the height of the header */
-            position: relative; /* Ensure positioning context for the child elements */
-           /*font-size: 50px;  Set the font size to 24 pixels (adjust as needed) */
-
-           /*animation-name: colorchange;
-            animation-duration: 3s;
-            animation-timing-function: ease-in;
-            animation-delay: 1s;
-            animation-iteration-count: infinite;
-            animation-direction: reverse;*/
         }
-        
-        /*@keyframes colorchange {
-            0% { background-color: red; }
-            50% { background-color: #FFA500; }
-            100% { background-color: blue; }
-        }*/
 
         footer {
             position: fixed;
@@ -108,48 +92,31 @@
             padding: 10px;
             text-align: center;
         }
-
-        table td {
-            color: black;
-            font-weight: bold; /* Adding bold font weight */
-        }
-
-        table tr {
-            background-color: #FFD700; /* Setting background color*/
-        }
     </style>
 </head>
 
 <body>
     <div id="header">
         <h1>Dr Melchisedec Bankole</h1>
-        <table id="bottomTable">
-            <tbody>
-                <tr>
-                    <td class="orange-border">Data Programmer/Analyst [Python, SQL]</td>
-                    <td class="orange-border">Front-End Developer [HTML, CSS, JavaScript]</td>
-                    <td class="orange-border">Technical Writer.</td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="flex-container">
+            <div class="orange-border">Data Programmer/Analyst [Python, SQL]</div>
+            <div class="orange-border">Front-End Developer [HTML, CSS, JavaScript]</div>
+            <div class="orange-border">Technical Writer.</div>
+        </div>
     </div>
 
-<div class="container-lg px-3 my-5 markdown-body">
+    <div class="container-lg px-3 my-5 markdown-body">
         <h1><a href="https://dr-melchisedec-bankole.github.io/DR-MELCHISEDEC-BANKOLE/">DR-MELCHISEDEC-BANKOLE</a></h1>
         <p>👋 Hey there, I’m @DR-MELCHISEDEC-BANKOLE, your friendly nexus:</p>
         <p>👀 I am a Supernal Science Scholar who is currently transitioning to tech: Software programming/Data science.</p>
         <p>🌱 Currently, I’m learning Angular (a Google development platform and framework), continually expanding my skill set.</p>
         <p>💞️ I’m looking to collaborate on open source.</p>
         <p>📫 Reach out to me through my email: drmelchisedecbankole@gmail.com and let’s embark on a journey of innovation and creativity! 🚀🌟</p>
-        <!---
-        DR-MELCHISEDEC-BANKOLE/DR-MELCHISEDEC-BANKOLE is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-        You can click the Preview link to take a look at your changes.
-        --->    
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>
-  
+
     <footer>
         <p>&copy; 2023 Dr Melchisedec Bankole</p>
     </footer>
