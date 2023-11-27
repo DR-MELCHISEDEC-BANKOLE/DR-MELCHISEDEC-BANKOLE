@@ -38,12 +38,23 @@
     <style>
           /* CSS style with text color set to black */
     
-       .orange-border {
+       #bottomTable {
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          transform: translateX(-50%);
+          margin-bottom: 10px; /* Adjust as needed to create space between header and table */
+      }
+      
+      /* Your existing styles for orange-border and other elements */
+      .orange-border {
           border: 2px solid orange;
-          padding: 5px; /* Optional: Adds padding inside the border */
-          display: inline-block; /* Ensures elements are displayed inline */
-    }
-
+          padding: 5px;
+          display: inline-block;
+          color: black;
+          font-weight: bold;
+          /* Add any other styles you need */
+      }
         body {
             margin: 0;
             display: flex;
@@ -54,12 +65,14 @@
             font-family: Arial, sans-serif;
         }
 
+
         #header {
             background-color: #F0B90B;
             color: #000000;
             padding: 10px;
-            text-align: center; /* Align text to the center */
-            height: 180px; /* Adding a specific height of 80 pixels */
+            text-align: center;
+            height: 200px; /* Set the height of the header */
+            position: relative; /* Ensure positioning context for the child elements */
           
              animation-name: colorchange;
              animation-duration: 3s;
@@ -93,18 +106,19 @@
 
   </head>
   <body>
-    <div id="header">
-        <h1>Dr Melchisedec Bankole</h1>
-        <table><!-- Tables -->
+<div id="header">
+    <h1>Dr Melchisedec Bankole</h1>
+    <table id="bottomTable">
         <tbody>
             <tr>
-            <td class="orange-border">Data Programmer/Analyst [Python, SQL]</td>
-            <td class="orange-border">Front-End Developer [HTML, CSS, JavaScript]</td>
-            <td class="orange-border">Technical Writer.</td>
+                <td class="orange-border">Data Programmer/Analyst [Python, SQL]</td>
+                <td class="orange-border">Front-End Developer [HTML, CSS, JavaScript]</td>
+                <td class="orange-border">Technical Writer.</td>
             </tr>
         </tbody>
-        </table>
-    </div>
+    </table>
+</div>
+
 
     <div class="container-lg px-3 my-5 markdown-body">
       
