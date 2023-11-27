@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>DR-MELCHISEDEC-BANKOLE | Config files for my GitHub profile.</title>
+    
+    <title>Document</title>
 
     <!-- SEO metadata -->
     <meta name="description" content="Config files for my GitHub profile.">
@@ -18,7 +20,7 @@
     <meta name="twitter:card" content="summary">
     <meta property="twitter:title" content="DR-MELCHISEDEC-BANKOLE">
 
-    
+<!-- JSON-LD for schema.org -->  
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
@@ -98,6 +100,21 @@
         width: 100%;
     }
 
+
+    .toggle-circle {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: linear-gradient(to right, black 50%, white 50%);
+        border: none;
+        cursor: pointer;
+        margin-left: 480px; /* Push button to the right */
+        margin-right: 20px; /* Adjust right margin */
+        margin-bottom: 0px; /* Adjust right margin */
+
+
+    }
+
     header h1 {
         font-size: 46px;
         color: black;
@@ -123,6 +140,28 @@
         padding: 10px;
         text-align: center;
     }
+
+
+    /* Common styles for both themes */
+    body {
+        font-family: Arial, sans-serif;
+        transition: background-color 0.3s, color 0.3s;
+        /* Default dark theme */
+        --background-color: black;
+        --text-color: white;
+    }
+
+    /* Light theme */
+    body.light-theme {
+        --background-color: white;
+        --text-color: black;
+    }
+
+    /* Use CSS variables to set colors */
+    body {
+        background-color: var(--background-color);
+        color: var(--text-color);
+    }
 </style>
 </head>
 
@@ -134,6 +173,7 @@
             <div class="orange-border">Front-End Developer [HTML, CSS, JavaScript]</div>
             <div class="orange-border">Technical Writer.</div>
         </section>
+        <button class="toggle-circle" onclick="toggleTheme()" title="Toggle Theme"></button>
     </header>
 
     <main>
@@ -145,10 +185,29 @@
         <p>📫 Reach out to me through my email: drmelchisedecbankole@gmail.com and let’s embark on a journey of innovation and creativity! 🚀🌟</p>
     </main>
 
-<!-- JavaScript -->
+
+<!-- CSS and HTML structure -->
+
+    <!-- JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
-    <script>anchors.add();</script>
-    
+    <script>
+        // JavaScript code
+        document.addEventListener('DOMContentLoaded', function() {
+            // Make sure 'anchors' is defined or loaded before calling anchors.add()
+            anchors.add();
+        });
+
+        // Initially set the dark theme by default
+        document.body.classList.add('dark-theme');
+
+        function toggleTheme() {
+            document.body.classList.toggle('light-theme');
+            document.body.classList.toggle('dark-theme');
+        }
+
+    </script>
+
+   
     <footer>
         <p>&copy; 2023 Dr Melchisedec Bankole</p>
     </footer>
