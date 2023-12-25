@@ -4,7 +4,7 @@
 
 | Front-End Developer [HTML, CSS, JavaScript] 
 
-| Technical Writer.
+| Technical Writer | Angular student |
 
 👀 I am a Supernal Science Scholar who is currently transitioning to tech: Software programming/Data science.
 
