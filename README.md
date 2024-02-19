@@ -1,10 +1,12 @@
 👋 Hey there, I'm @DR-MELCHISEDEC-BANKOLE, your friendly nexus: 
 
-| Data Programmer/Analyst [Python, SQL] 
-
 | Front-End Developer [HTML, CSS, JavaScript] 
 
-| Technical Writer | Angular student |
+| Technical Writer | Angular student | SQL
+
+| Python Developer | Cloud Computing student |
+ 
+| Cybersecurity aficionado | Supernal-Science Scholar |
 
 👀 I am a Supernal Science Scholar who is currently transitioning to tech: Software programming/Data science.
 
