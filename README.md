@@ -1,5 +1,6 @@
 👋 Hey there, I'm @DR-MELCHISEDEC-BANKOLE, your friendly nexus: 
 
+| A Full-Stack Developer:
 | Back-End Developer [Node.js, Express.js, JavaScript] 
 
 | Front-End Developer [HTML, CSS, JavaScript] 
