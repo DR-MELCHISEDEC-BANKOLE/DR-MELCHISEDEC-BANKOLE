@@ -1,6 +1,8 @@
 👋 Hey there, I'm @DR-MELCHISEDEC-BANKOLE, your friendly nexus: 
 
-DevOps |Cloud |BackEnd Dev [Golang |Node.js]|SaaSiQ (Software as a Service IQ)|Technical Writer|Cybersecurity aficionado|Supernal-Science-Scholar
+DevOps |Cloud |BackEnd Dev [Golang |Node.js]|
+SaaSiQ (Software as a Service IQ)|Technical Writer|
+Cybersecurity aficionado|Supernal-Science-Scholar
  
 👀 I am a Supernal Science Scholar who is very passionate about emerging technology.
 
