@@ -1,20 +1,10 @@
 👋 Hey there, I'm @DR-MELCHISEDEC-BANKOLE, your friendly nexus: 
 
-| A Full-Stack Developer:
-
-| Back-End Developer [Node.js, Express.js, JavaScript] 
-
-| Front-End Developer [HTML, CSS, JavaScript] 
-
-| Technical Writer | Angular student | SQL
-
-| Python Developer | Cloud Computing student |
+DevOps |Cloud |BackEnd Dev [Golang |Node.js]|SaaSiQ (Software as a Service IQ)|Technical Writer|Cybersecurity aficionado|Supernal-Science-Scholar
  
-| Cybersecurity aficionado | Supernal-Science Scholar |
+👀 I am a Supernal Science Scholar who is very passionate about emerging technology.
 
-👀 I am a Supernal Science Scholar who is very passionate about emerging technology: Software programming/Data science.
-
-🌱 Currently, I'm learning Angular (a Google development platform and framework), continually expanding my skill set.
+🌱 Currently, I'm continually expanding my skill set.
 
 💞️ I’m looking to collaborate on opensource.
 
